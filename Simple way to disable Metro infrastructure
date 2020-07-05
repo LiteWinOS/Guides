@@ -1,0 +1,16 @@
+Simple way to disable Metro infrastructure
+
+
+
+    Open regedit go to key
+    Code:
+
+    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon
+    Set EnableSIHostIntegration to 0
+
+    Then install startisback, to have some of the disabled feature available again(like start menu, closing windows from taskbar)
+    logoff to take effect
+
+    Here how its impact the processes and handles
+    trying to exec metro app wont work with error class not registered
+    [​IMG]
