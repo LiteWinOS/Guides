@@ -1,0 +1,20 @@
+Disclaimer - using new driver on old OS might create hardware problem, so use it on ur own risk
+
+Guide
+
+move/remove catalog file from driver folder
+like e2f68.cat
+
+with notepad open the inf file and replace (Control+H)
+10.0...17763
+to
+10.0.1
+
+F8 before the OS loading
+choose disable driver signature enforcement
+and install the driver
+
+Done
+
+
+----------------
